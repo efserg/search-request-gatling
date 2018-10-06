@@ -1,0 +1,7 @@
+*.iml
+*.swp
+*.class
+.idea/
+results/
+target/
+user.properties

@@ -1,0 +1,16 @@
+{
+  "event_timestamp": 1535068800,
+  "uid": "uid_123",
+  "search_text": "Тестовы\t запрос в сервис\n",
+  "long": 55.1111,
+  "lat": 33.2222,
+  "search_result": {
+    "search_engine": "Test",
+    "values": [
+      "prod_uid_1",
+      "prod_uid_2",
+      "prod_uid_3",
+      "prod_uid_4"
+    ]
+  }
+}
