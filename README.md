@@ -13,7 +13,7 @@
 
 ####Запуск тестирования
 1. Запустите [search request logger](https://github.com/efserg/search-request-logger)
-1. Склонируйте репозиторий `git clone ...`
+1. Склонируйте репозиторий `git clone git@github.com:efserg/search-request-gatling.git`
 1. Нужным образом отредактируйте `conf/performanceTest.conf`
 1. Выполните `mvn -Dgatling.simulationClass=BasicSimulation gatling:test` в директории проекта
 1. Gatling отошлет нужное число запросов на создание записи в базе
