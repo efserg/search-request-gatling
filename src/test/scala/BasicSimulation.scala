@@ -42,6 +42,6 @@ class BasicSimulation extends Simulation {
         .asJSON)
 
   setUp(
-    scn.inject(rampUsers(users) over (duration seconds))
+    scn.inject(constantUsersPerSec(users) during (duration second))
   ).protocols(httpConf)
 }
