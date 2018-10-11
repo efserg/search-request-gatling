@@ -1,8 +1,8 @@
-###Search request Gatling test
+### Search request Gatling test
 
 Нагрузочное тестирование с использованием Gatling'а для Search request logger'a
 
-####Конфигурирование
+#### Конфигурирование
 Настройка параметров происходит путем редактирования свойств в `conf/performanceTest.conf`
 
 * `url="http://localhost:8080" ` - базовый url
@@ -15,10 +15,10 @@
     * `stress-users = 500` - число нагрузочных запросов в секунду
     * `stress-duration=10`- длительность нагрузочного тестирования (в секундах)
 
-####Запуск тестирования
+#### Запуск тестирования
 1. Запустить search request logger
 1. Перейти в папку проекта `cd search-request-gatling`
 1. Нужным образом отредактировать `conf/performanceTest.conf`
 1. Выполнить `mvn -Dgatling.simulationClass=BasicSimulation gatling:test` в директории проекта
 1. Gatling отошлет нужное число запросов на создание записей в базе
-1. Отчет по тестированию будет доступен по пути `target\gatling\basicsimulation-<timestamp>\index.html` (путь к отчету будет выведен в конце симуляции)
+1. Отчет по тестированию будет доступен по пути `target/gatling/basicsimulation-<timestamp>/index.html` (путь к отчету будет выведен в конце симуляции)
